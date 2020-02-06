@@ -1,0 +1,118 @@
+body {
+    font-family: 'Kanit-Regular';
+    position: relative;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #838383;
+    letter-spacing: 1px;
+}
+
+.color2 {
+    color: #A77B5B;
+}
+
+.color-red {
+    color: #B71520;
+}
+
+.btn-4 {
+    background-color: #A77B5B;
+    padding: 8px 15px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: #fff;
+    width: 100%;
+    border: 1px solid #A77B5B;
+}
+
+.btn-4:hover,
+.btn-4:focus {
+    background-color: #a77a5acf;
+    color: #fff;
+}
+
+.wrapper-page h3{
+    font-size: 1rem;
+}
+.panel-heading{
+    font-size: 0.75rem;
+    color: #767676;
+}
+.account-pages {
+    background: url(../images/banner-login.png);
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper-page {
+    position: absolute;
+    width: 50%;
+    text-shadow: 0 0 black;
+    right: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 6px;
+    border-bottom: 5px solid #A77B58;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3)
+}
+
+.btn-1 {
+    background-color: #a77a5a;
+    color: #fff;
+    padding: 6px 15px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.btn-1:hover,
+.btn-1:focus {
+    background-color: #a77a5acf;
+    color: #FFFAF4;
+    box-shadow: none;
+}
+
+.underline {
+    text-decoration: underline
+}
+
+.color-black{
+    color: #767676;
+}
+
+.form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #CECECE;
+}
+
+.form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #CECECE;
+}
+
+.form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #CECECE;
+}
+
+.form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #CECECE;
+}
+
+.page-panel{
+    padding: 20px 30px;
+    border: 1px solid #a77a5a;
+    margin-bottom: 15px;
+}
